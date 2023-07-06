@@ -24,10 +24,10 @@ const menuopen = () => {
 
   const main = document.getElementById('main');
   if (main) {
-    main.style.marginLeft = '250px';
+    main.style.marginLeft = '252px';
   }
 
-  document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.4)';
+  document.body.style.backgroundColor = 'rgba(0, 0, 0, 0.5)';
 };
 
 const menuToggle = document.getElementById('menu-toggle');
