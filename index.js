@@ -1,19 +1,13 @@
-const mobileMenu = document.getElementById("mobileMenu");
-const mobileNavigation = document.getElementById("mobileNavigation");
+const mobileMenu = document.getElementById('mobileMenu');
+const mobileNavigation = document.getElementById('mobileNavigation');
 
+mobileNavigation.style.display = 'none';
 
-mobileNavigation.style.display = "none";
-
-
-mobileMenu.addEventListener("click", () => {
-
-  mobileNavigation.style.display = (mobileNavigation.style.display === "none") ? "block" : "none";
+mobileMenu.addEventListener('click', () => {
+  mobileNavigation.style.display = (mobileNavigation.style.display === 'none') ? 'block' : 'none';
 });
 
-
-
 // dynamic js
-  
 
 const speakers = [
   {
@@ -69,21 +63,18 @@ function renderSpeakers(loadMore = false) {
   const startingIndex = loadMore ? speakersContainer.children.length : 0;
 
   // loop through speakers in array
-  for (let i = startingIndex; i < startingIndex + numSpeakersToShow; i++) {
+  for (let i = startingIndex; i < startingIndex + numSpeakersToShow; i += 1) {
     const speaker = speakers[i];
 
-   
     if (isMobileMode && i % 2 === 0) {
       currentRow = document.createElement('div');
       currentRow.className = 'row';
       speakersContainer.appendChild(currentRow);
     }
 
-   
     const speakerCard = document.createElement('div');
     speakerCard.className = 'row-md-6';
 
-  
     const cardContent = `
       <div class="speaker-card">
         <img src="${speaker.imageSrc}" alt="${speaker.name}" class="image-fluid">
@@ -93,17 +84,14 @@ function renderSpeakers(loadMore = false) {
       </div>
     `;
 
- 
     speakerCard.innerHTML = cardContent;
 
-    
     if (isMobileMode && currentRow) {
       currentRow.appendChild(speakerCard);
     } else {
       speakersContainer.appendChild(speakerCard);
     }
 
-   
     if (isMobileMode) {
       speakerCard.style.width = '100%';
     }
@@ -115,6 +103,6 @@ renderSpeakers();
 // Mobile btn
 const button = document.getElementById('mobileScreenButton');
 button.addEventListener('click', () => {
-  numSpeakersPerLoad += 2; 
+  numSpeakersPerLoad += 2;
   renderSpeakers(true);
 });
