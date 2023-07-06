@@ -5,7 +5,7 @@
   
   <br/>
 
-# Portfolio-Microverse
+# Car-Show 
 
 
 </div>
@@ -38,7 +38,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # Live app<a name="live-link"></a>
-** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
+** https://paulshaun-kdtk.github.io/capstone-Car-Show/
 
 # Video explanation of app <a name="video-explanation"> </a>
 
