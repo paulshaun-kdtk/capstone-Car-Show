@@ -5,7 +5,7 @@
   
   <br/>
 
-# Portfolio-Microverse
+# Car-Show 
 
 
 </div>
@@ -38,7 +38,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # Live app<a name="live-link"></a>
-** https://paulshaun-kdtk.github.io/Microverse_Proffessional_Portifolio/
+** https://paulshaun-kdtk.github.io/capstone-Car-Show/
 
 # Video explanation of app <a name="video-explanation"> </a>
 
@@ -142,6 +142,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse team.
+As well as Cindy Shin; the owner of the original template used for the design of this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

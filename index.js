@@ -62,7 +62,7 @@ function renderSpeakers(loadMore = false) {
 
   const startingIndex = loadMore ? speakersContainer.children.length : 0;
 
-  // loop through speakers in array
+  // loop for speakers in array
   for (let i = startingIndex; i < startingIndex + numSpeakersToShow; i += 1) {
     const speaker = speakers[i];
 
