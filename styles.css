@@ -53,7 +53,6 @@
   transition: 0.5s;
   -webkit-backdrop-filter: blur(25px);
   backdrop-filter: blur(25px);
-  
 }
 
 .mobileNavigation > a {
@@ -313,12 +312,11 @@
 }
 
 @media (min-width: 768px) {
-
-  .mobileNavigation{
+  .mobileNavigation {
     display: none;
   }
 
-  
+
   .button-posi {
     display: none;
   }
@@ -396,7 +394,7 @@
     width: auto;
   }
 
-  
+
 
   .featureSection > h1 {
     font-size: 50px;
