@@ -6,6 +6,15 @@
   margin: 0;
 }
 
+.hr {
+  width: 3rem;
+  height: 0.2rem;
+  border-bottom: 1px solid #ec5242;
+  margin: 0 auto;
+  padding-top: 5px;
+  margin-bottom: 10px;
+}
+
 .subHeader {
   background-color: white;
   display: flex;
@@ -43,17 +52,17 @@
 .mobileNavigation {
   height: 100%;
   width: 0;
+  top:0;
+  left: 0;
   position: fixed;
   z-index: 100;
-  top: 0;
-  left: 0;
-  background: #e4b672;
+  background: #ec5242;
   mix-blend-mode: multiply;
   overflow-x: hidden;
   padding-top: 60px;
   transition: 0.5s;
-  -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(25px);
+  backdrop-filter: blur(25px);
 }
 
 .mobileNavigation > a {
@@ -193,18 +202,27 @@
   margin: 10px;
   text-align: center;
   background-image: var(--background);
-  background-color: rgba(0, 0, 0, 0.4);
-  background-size: cover;
+  background-size:cover;
+}
+
+.pastEventsEl-opacity {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #fff;
+  height: 100%;
 }
 
 .pastEventsEl > h3 {
-  color: #fff;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
 }
 
 .pastEventsEl > p {
   font-family: Lato, sans-serif;
   font-weight: 400;
-  color: #fff;
+  
 }
 
 .header-underline {
