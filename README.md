@@ -142,6 +142,7 @@ Feel free to check the [issues page](../../issues/).
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank Microverse team.
+As well as Cindy Shin; the owner of the original template used for the design of this website.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
